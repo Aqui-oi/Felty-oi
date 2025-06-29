@@ -1,0 +1,52 @@
+[package]
+name = "felty-oi"
+version = "0.1.0"
+edition = "2021"
+
+# Auteur et contact
+authors     = ["zyouax <Github.project@aquioi.com>"]
+description = "A blazing-fast, user-friendly file transfer app with filtering and GUI, powered by Dioxus."
+license     = "MPL-2.0"
+repository  = "https://github.com/Aqui-oi/Felty-oi"
+homepage    = "https://aquioi.com"
+documentation = "https://github.com/Aqui-oi/Felty-oi/blob/main/docs/en.md"
+
+# Mots-clés (crates.io + IDE)
+keywords = ["file-transfer", "dioxus", "desktop", "rust", "multiplatform"]
+
+# Catégories sur crates.io
+categories = ["command-line-utilities", "gui", "filesystem", "development-tools"]
+
+# Lien pour les bugs ou suggestions
+readme     = "README.md"
+license-file = "LICENSE"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.6.3", features = ["router"] }
+dioxus-desktop = "0.6.3"
+rfd = "0.15.3"
+walkdir = "2"
+gloo-timers = { version = "0.3", features = ["futures"] }
+base64 = "0.22.1"
+image = "0.25.6"
+
+[features]
+default = ["desktop"]
+web = ["dioxus/web"]
+desktop = ["dioxus/desktop"]
+mobile = ["dioxus/mobile"]
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"

@@ -1,0 +1,25 @@
+[application]
+name = "Felty Oï"
+default_platform = "desktop"
+
+[platform.desktop]
+entrypoint = "main.rs"
+width = 1280        # Increased width
+height = 720       # Increased height
+resizable = true   # Enable resizing
+min_width = 800    # Optional: minimum width
+min_height = 600   # Optional: minimum height
+
+[web.app]
+title = "felty oi"
+
+[web.resource]
+style = []
+script = []
+
+[web.resource.dev]
+script = []
+
+[bundle]
+icon = ["assets/header_256.png"]
+resources = ["assets/"]
