@@ -1,7 +1,7 @@
 # 🌟 Felty-Oi
 
 <p align="center">
-  <img src="assets/header_256.png" alt="Felty-Oi Logo" width="128" height="128">
+  <img src="/assets/header_256.png" alt="Felty-Oi Logo" width="128" height="128">
 </p>
 
 # Felty Oï
