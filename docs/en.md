@@ -45,7 +45,23 @@ Developed in **Rust** with the modern [Dioxus](https://dioxuslabs.com) framework
 
 ## 🖥️ Screenshot
 
-> *(interface)*
+> *(the interface)*
+
+<p align="center">
+  <img src="assets/file.png" alt="Screenshot 1" width="600">
+</p>
+
+> *(the interface with the filtering option)*
+
+<p align="center">
+  <img src="assets/file_extension.png" alt="Screenshot 2" width="600">
+</p>
+
+> *(About the interface)*
+
+<p align="center">
+  <img src="assets/about.png" alt="Screenshot 3" width="600">
+</p>
 
 ## 📦 Installation
 
