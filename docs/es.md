@@ -45,7 +45,23 @@ Desarrollada en **Rust** con el moderno framework [Dioxus](https://dioxuslabs.co
 
 ## 🖥️ Captura de pantalla
 
-> *(interfaz)*
+> *(la interfaz)*
+
+<p align="center">
+  <img src="assets/file.png" alt="Captura de pantalla 1" width="600">
+</p>
+
+> *(La interfaz con la opción de filtrado)*
+
+<p align="center">
+  <img src="assets/file_extension.png" alt="Captura de pantalla 2" width="600">
+</p>
+
+> *(Acerca de la interfaz)*
+
+<p align="center">
+  <img src="assets/about.png" alt="Captura de pantalla 3" width="600">
+</p>
 
 ## 📦 Instalación
 
