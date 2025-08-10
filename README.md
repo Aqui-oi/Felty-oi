@@ -51,6 +51,21 @@ Développée en **Rust** avec le framework moderne [Dioxus](https://dioxuslabs.c
 
 > *(l’interface)*
 
+<p align="center">
+  <img src="assets/file.png" alt="Capture d'écran 1" width="600">
+</p>
+
+> *(l’interface avec des options de filtrage)*
+
+<p align="center">
+  <img src="assets/file_extension.png" alt="Capture d'écran 2" width="600">
+</p>
+
+> *(À propos, de l’interface)*
+
+<p align="center">
+  <img src="assets/about.png" alt="Capture d'écran 3" width="600">
+</p>
 
 ## 📦 Installation
 
