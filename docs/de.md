@@ -47,6 +47,22 @@ Entwickelt in **Rust** mit dem modernen [Dioxus](https://dioxuslabs.com) Framewo
 
 > *(Oberfläche)*
 
+<p align="center">
+  <img src="assets/file.png" alt="Screenshot 1" width="600">
+</p>
+
+> *(Oberfläche mit Filtermöglichkeit)*
+
+<p align="center">
+  <img src="assets/file_extension.png" alt="Screenshot 2" width="600">
+</p>
+
+> *(Übrigens, an der Oberfläche)*
+
+<p align="center">
+  <img src="assets/about.png" alt="Screenshot 3" width="600">
+</p>
+
 ## 📦 Installation
 
 ### ✅ Voraussetzungen
